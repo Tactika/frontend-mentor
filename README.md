@@ -4,4 +4,4 @@ My frontend projects from the [FrontendMentor.io](https://www.frontendmentor.io)
 
 ## Projects
 
-- [QR Code Compenent](#qr-code-component)
+- [QR Code Compenent](https://github.com/Tactika/frontend-mentor/tree/Production/qr-code-component))
