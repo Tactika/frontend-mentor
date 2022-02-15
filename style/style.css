@@ -1,0 +1,58 @@
+/*
+background-color: rgb(213, 225, 239)
+*/
+* {
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgb(213, 225, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+section {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  max-width: 275px;
+}
+img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+article {
+  padding: 0 5px;
+}
+h1 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 15px;
+  color:lightslategray;
+}
+footer {
+  position:fixed; bottom:0; z-index:100000;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width: 351px) {
+  footer {
+    height: 20px;
+  }
+}
+@media screen and (max-width: 350px) {
+  footer {
+    width: 100%;
+  }
+  #contact {
+    display: block;
+  }
+}
